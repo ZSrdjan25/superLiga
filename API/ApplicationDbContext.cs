@@ -15,5 +15,6 @@ namespace API
         }
 
         public DbSet<Team> Teams { get; set; }
+        public DbSet<Match> Match { get; set; }
     }
 }
